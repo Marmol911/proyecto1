@@ -1,0 +1,174 @@
+body{
+    background: #ebe2ba;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size: 16px;
+    color: rgb(192, 31, 31);
+    text-decoration: none;
+}
+/*LOGO-------------------------------------------*/
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #6688e6;
+}
+
+.logo {
+    cursor: pointer;
+    width: 210px;
+    margin-right: auto;
+}
+/*menu-----------------------------------------------*/
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+    font font-family: Arial;
+    
+}
+
+.menu li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: all 0.03s aese 0;
+    padding: 20px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 10px;
+    text-align:center;
+    
+}
+
+.menu li a:hover {
+    background: #ec6864;
+}
+
+
+.boton {
+    padding: 9px 25px;
+    margin-left: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+  
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 10px;
+}
+  
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+}
+/*relleno-----------------------------------------*/
+.card {
+    border-color: #121d27 ;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+
+.row:after {
+    display:block;
+    clear: both;
+}
+  
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(230, 43, 43);
+    margin-top: 20px;
+  }
+
+/*registro--------------------------------------------*/
+.form-register{
+    width: 500px;
+    background: #fa2d2d;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 9px;
+    color: white;
+    box-shadow: 7px 13px 37px #494b52;
+    
+}
+
+.form-register h4{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.controls{
+    width: 100%;
+    background: #e4e5e6;
+    padding: 7px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #e5e742;
+    font-size: 18px;
+    color:black;
+}
+
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color:white;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color:white;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 100%;
+    background: #121d27;
+    border: none;
+    padding: 12px;
+    color: #e5e742;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.ultimo{
+    font font-family: Arial;
+    font size: 3px;
+}
